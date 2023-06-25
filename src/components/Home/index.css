@@ -1,0 +1,78 @@
+@media screen and(min-width:366px) {
+  .home-container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-1 {
+    width: 90%;
+    background-color: #d7dbe0;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left-container {
+    border-bottom: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .right-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+  }
+}
+
+@media screen and (min-width: 763px) {
+  .home-container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-container {
+    padding-top: 30px;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .right-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+  }
+  .container-1 {
+    width: 90%;
+    background-color: #d7dbe0;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .add-button {
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+  }
+  .tasks-list {
+    width: 95%;
+    margin-right: 30px;
+  }
+}
