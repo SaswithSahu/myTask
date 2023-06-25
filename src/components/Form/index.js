@@ -72,7 +72,7 @@ class Form extends Component {
           <label htmlFor="description">Assigned User</label>
           <select onChange={this.onChangeTeamMember} value={teamMember}>
             {teamDetails.map(each => (
-              <option id={each.user_id}>{each.name}</option>
+              <option key={each.user_id}>{each.name}</option>
             ))}
           </select>
         </div>
